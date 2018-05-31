@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div class="container">
-      <div className="multi-img" >
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <div className="box1" >
       <div className="headers">
         <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78_cVuZT5NM-jg-MV-CH8LET1fNwi_rj3PmvCRgjLgBIuy8KKAw"/>
         <h1>TinyLove</h1>
@@ -32,7 +34,7 @@ class App extends Component {
       </div>
       </div>
 
-      <div className="main">
+      <div className="box2">
       <div className="section-one">
       <img src ="http://www.clickonline.com/Images/Uploads/2016/291/Original/ArrowsWifi.png"/>
         <h3>Section Title</h3>
@@ -53,11 +55,11 @@ class App extends Component {
       </div>
       </div>
 
-      <div className="based">
+      <div className="box3">
       <h2>it's the next generation of location based networking</h2>
       </div>
       
-      <div className="middle-head">
+      <div className="box4">
       <div className="header">
       <h1>See how it works</h1>
       </div>
@@ -73,7 +75,7 @@ Connections.</p>
       </div>
       </div>
 
-      <div className="option">
+      <div className="box5">
       <div className="img-box1">
       <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-KI4BX06hodeUFiFaCTl_bAw4HKOuBrVIkSZI6l_T3Zgrp0qlQ"/>
       </div>
@@ -84,7 +86,7 @@ Connections.</p>
       </div>
       </div>
       
-      <div className="head">
+      <div className="box6">
       <div className="text">
       <h3><img src ="http://via.placeholder.com/20x20"/>Heading goes here</h3>
       <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network. The network provides both a place to store the information and mechanisms to share that information with other network users.
@@ -95,10 +97,21 @@ Connections.</p>
       </div>
       </div>
 
-      <div className="contact">
+      <div className="box7">
       <h2>Get in touch</h2>
-      <label for="name">Name</label>
+      <label for="uname">Username</label>
       <input type="text" name="name"/>
+      <label for="email">EmailAddress</label>
+      <input type="email" name="email"/>
+      <label for="subject">Subject</label>
+      <input type="text" name="subject"/>
+      <label for="message">Message</label>
+      <input type="text" name="message"/>
+      <button type="submit">submit</button>
+      </div>
+
+      <div className="box8">
+        <h6>@TinyLove</h6>
       </div>
       </div>
       

@@ -1,34 +1,39 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import fblogoImg from './images/facebook-letter-logo.svg';
+import twitterlogoImg from './images/twitter-logo (1).svg';
+import glogoImg from './images/google-logo.svg';
+import oblogoImg from './images/objective.svg';
+import cplogoImg from './images/computer.svg';
+import worldlogoImg from './images/world-map.svg';
+import pencillogoImg from './images/pencil.svg';
+import chatlogoImg from './images/chat.svg';
+import pinlogoImg from './images/pin.svg';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div class="container">
-      <meta charset="utf-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <div className="box1" >
       <div className="headers">
-        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78_cVuZT5NM-jg-MV-CH8LET1fNwi_rj3PmvCRgjLgBIuy8KKAw"/>
+        <img src ="https://www.tinylove.com/skin/frontend/tinylove/v2/images/logo-svg.svg"/>
         <h1>TinyLove</h1>
         <ul className="list">
-          <li className="list1"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQi-txhDdEeP-BEaa_6tQRgZ8iUQAFv-pVZrR6SGMLLjNLxOWx"/></li>
-          <li className="list1"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2S-_MJpn0u2h1KseCml6WzbqmvMBZY5M8mCujkMTKKyk1xyVL"/></li>
-          <li className="list1"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfGXI8h_WXpFTDdQw3lgiSOY3QILtSJbKVPmQrC4AiCq9QBv3_"/></li>
+          <li className="list1"><img src={fblogoImg}/></li>
+          <li className="list1"><img src={twitterlogoImg}/></li>
+          <li className="list1"><img src={glogoImg}/></li>
         </ul>
         </div>
       
       <div className="App">
-        <div className="first-img"> 
-        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-KI4BX06hodeUFiFaCTl_bAw4HKOuBrVIkSZI6l_T3Zgrp0qlQ"/>
-        </div>
         <div className="block-one">
           <h3>Enticing statement goes here</h3>
           <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network.</p>
           <ul className="list-one">
-          <li className="list2"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAtRaJBXhyM7oOmBVdcN15S3ZpKKl6wvwtFofLVHc38DUwL0jQNw"/></li>
-          <li className="list2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuEuGCq9lD9KMPW6NuNR4sOetFv4i3GAe5asM6q4zPUr73eoJjEg"/></li>
+          <li className="list2">
+            <img src = "http://www.checkmy.camera/images/logos/2000px-Get_it_on_Google_play.svg.png"/></li>
+          <li className="list2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/200px-Download_on_the_App_Store_Badge.svg.png"/></li>
         </ul>
       </div>    
       </div>
@@ -36,19 +41,19 @@ class App extends Component {
 
       <div className="box2">
       <div className="section-one">
-      <img src ="http://www.clickonline.com/Images/Uploads/2016/291/Original/ArrowsWifi.png"/>
+      <img className="obImg" src = {oblogoImg}/>
         <h3>Section Title</h3>
         <h4>Heading of this section</h4>
         <p>Facebook helps you connect and share with the people in your life.</p>
       </div>
       <div className="section-two">
-      <img src ="http://www.clickonline.com/Images/Uploads/2016/291/Original/WifiCalling.png"/>
+      <img className="cpImg" src ={cplogoImg}/>
         <h3>Section Title</h3>
         <h4>Heading of this section</h4>
         <p>Facebook helps you connect and share with the people in your life.</p>
       </div>
       <div className="section-three">
-      <img src ="http://www.clickonline.com/Images/Uploads/2016/291/Original/Location.png"/>
+      <img className="worldImg" src ={worldlogoImg}/>
         <h3>Section Title</h3>
         <h4>Heading of this section</h4>
         <p>Facebook helps you connect and share with the people in your life.</p>
@@ -64,11 +69,16 @@ class App extends Component {
       <h1>See how it works</h1>
       </div>
       <div className="works">
-      <div className="inform">
-        <h3><img src ="http://via.placeholder.com/20x20"/>Heading goes here</h3>
-        <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network. The network provides both a place to store the information and mechanisms to share that information with other network users.
+        <div className ="itworks">
+          <div className="img-go">
+            <img src ={pencillogoImg}/>
+          </div>  
+          <div className="inform">
+            <h3>Heading goes here</h3>
+            <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network. The network provides both a place to store the information and mechanisms to share that information with other network users.
 Connections.</p>
       </div>
+        </div>
       <div className="img-box">
         <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-KI4BX06hodeUFiFaCTl_bAw4HKOuBrVIkSZI6l_T3Zgrp0qlQ"/>
       </div>
@@ -80,18 +90,28 @@ Connections.</p>
       <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-KI4BX06hodeUFiFaCTl_bAw4HKOuBrVIkSZI6l_T3Zgrp0qlQ"/>
       </div>
       <div className="img-box2">
-      <h3><img src ="http://via.placeholder.com/20x20"/>Heading goes here</h3>
+      <div className="img-go1">
+      <img  src ={chatlogoImg}/>
+      </div>
+      <div className="inform1">
+      <h3>Heading goes here</h3>
       <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network. The network provides both a place to store the information and mechanisms to share that information with other network users.
 Connections.</p>
+      </div>
       </div>
       </div>
       
       <div className="box6">
-      <div className="text">
-      <h3><img src ="http://via.placeholder.com/20x20"/>Heading goes here</h3>
-      <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network. The network provides both a place to store the information and mechanisms to share that information with other network users.
-Connections.</p>
-      </div>
+        <div className="text">
+        <div className="img-go2">
+        <img src ={pinlogoImg}/>
+        </div>
+        <div className="inform2">
+        <h3>Heading goes here</h3>
+        <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network. The network provides both a place to store the information and mechanisms to share that information with other network users.
+  Connections.</p>
+        </div>
+        </div>
       <div className="img-box3">
       <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-KI4BX06hodeUFiFaCTl_bAw4HKOuBrVIkSZI6l_T3Zgrp0qlQ"/>
       </div>

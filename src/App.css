@@ -110,7 +110,7 @@ body {
   padding: 10px 0px;
 }
 .box4{
-  width: 1000px;
+
   margin: auto;
   color: white;
   background-color: #393b47;
@@ -129,12 +129,14 @@ body {
   flex: 1
 }
 .img-go{
-  padding-top: 5px;
+  padding-top: -10px;
   margin-left: 5px;
-  background: #c4493b;
-  padding: 0px;
+}
+.pencil{
+  padding: 5px;
   width: 25px;
-  margin-bottom: 200px;
+  background: #c4493b;
+
 }
 .inform{
   text-align: left;
@@ -144,6 +146,9 @@ body {
 .img-box{
   flex:1;
 }
+.apple1{
+  width: 300px;
+}
 .box5 {
   display: flex;
   text-align: center;
@@ -151,7 +156,7 @@ body {
   color: white;
   background-color:#2b2f37;
   padding: 20px 0px;
-  width: 1000px
+  
 }
 .img-box1{
   flex:1;
@@ -161,13 +166,21 @@ body {
   flex:1; 
 }
 .img-go1{
-  padding-top: 5px;
+  padding-top: -10px;
   margin-left: 5px;
+}
+.chatimg{
+  padding: 5px;
+  width: 25px;
+  background: #c4493b;
 }
 .inform1{
   text-align: left;
   margin-top: -20px;
   margin-left: 10px;
+}
+.apple2{
+  width: 300px;
 }
 
 .box6 {
@@ -177,15 +190,20 @@ body {
   color: white;
   background-color:#393b47;
   padding: 20px 0px;
-  width: 1000px;
+ 
 }
 .text{
   display: flex;
   flex:1;
 }
 .img-go2{
-  padding-top: 5px;
+  padding-top: -10px;
   margin-left: 5px;
+}
+.pinimg{
+  padding: 5px;
+  width: 25px;
+  background: #c4493b;
 }
 .inform2{
   text-align: left;
@@ -195,28 +213,32 @@ body {
 .img-box3{
   flex:1; 
 }
-.box7 {
-  text-align: center;
-  margin: auto;
-  background-color: #c44a3b;
-  color: white;
-  padding: 20px 0px;
+.apple3{
+  width:300px
 }
+.cnt-form{
+    text-align: center;
+    margin: auto;
+    background-color: #c44a3b;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+
 .box8{
   text-align: center;
   margin: auto;
   background-color: white;
   padding: 10px 0px;
-  
 }
 
-/*tablet*/
+
+/*tablet
 @media only screen and (max-width: 900px) {
   .container {
       background-color: #c44a3b ;
   }
 }
-/*mobile*/
+
 @media only screen and (max-width: 450px) {
   .container {
       background-color:  #c44a3b;
@@ -226,13 +248,12 @@ body {
   .box1 {
       background-color: #c44a3b;
   }
-}
+}*/
 @media only screen and (max-width: 450px) {
   .box1{
-    width:100%
-  }
-  .block-one{
-    display: none;
+    width:100%;
+    background-position: -805 px 0px;
+    flex-direction: column;
   }
   .box2{
     width: 100%;
@@ -243,6 +264,10 @@ body {
   }
   .box4 {
     width:100%;
+    flex-direction: column;
+  }
+  .works{
+    flex-direction: column;
   }
   .box5{
     width:100%;
@@ -251,6 +276,34 @@ body {
   .box6{
     width: 100%;
     flex-direction: column;
+  }
+  .box7{
+    width: 100%;
+  }.box8{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .box1{
+    width:100%;
+    background-position: -710px 0px;
+    flex-direction: column;
+  }
+  .box2{
+    width: 100%;
+  }
+  .box3{
+    width: 100%;
+  }
+  .box4 {
+    width:100%;
+  }
+  .box5{
+    width:100%;
+  }
+  .box6{
+    width: 100%;
   }
   .box7{
     width: 100%;
@@ -261,6 +314,8 @@ body {
 @media only screen and (max-width: 900px) {
   .box1{
     width:100%;
+    background-position: -795px 0px;
+    flex-direction: column;
   }
   .box2{
     width: 100%;
@@ -271,6 +326,9 @@ body {
   }
   .box4 {
     width:100%;
+  }
+  .works{
+    flex-direction: column;
   }
   .box5{
     width:100%;
@@ -279,31 +337,6 @@ body {
   .box6{
     width: 100%;
     flex-direction: column;
-  }
-  .box7{
-    width: 100%;
-  }.box8{
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .box1{
-    width:100%;
-  }
-  .box2{
-    width: 100%;
-  }
-  .box3{
-    width: 100%;
-  }
-  .box4 {
-    width:100%;
-  }
-  .box5{
-    width:100%;
-  }
-  .box6{
-    width: 100%;
   }
   .box7{
     width: 100%;

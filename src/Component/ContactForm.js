@@ -80,7 +80,7 @@ export default class ContactForm extends Component{
                     <input className="msg-txt1" type="text" name="message"/>
                 </div>
                 <div className="sub">
-                    <button type="submit">submit</button>
+                    <button type="submit" className="submit-btn">submit</button>
                 </div>
             </form>
         )

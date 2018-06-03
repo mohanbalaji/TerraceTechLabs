@@ -16,29 +16,30 @@ class App extends Component {
     return (
       <div class="container">
       <div className="box1" >
-      <div className="headers">
-      <img src ="https://www.tinylove.com/skin/frontend/tinylove/v2/images/logo-svg.svg"/>
+        <div className='back-img'></div>
+        <div className="headers">
+        <img src ="https://www.tinylove.com/skin/frontend/tinylove/v2/images/logo-svg.svg"/>
         <h1>TinyLove</h1>
           <ul className="list">
             <li className="list1"><img src={fblogoImg}/></li>
             <li className="list1"><img src={twitterlogoImg}/></li>
             <li className="list1"><img src={glogoImg}/></li>
           </ul>
-      </div>
+        </div>
       
-      <div className="App">
-      <div className="block-one">
-        <h3>Enticing statement goes here</h3>
-        <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network.</p>
-          <ul className="list-one">
-            <li className="list2">
-              <img src = "http://www.checkmy.camera/images/logos/2000px-Get_it_on_Google_play.svg.png"/></li>
-            <li className="list2">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/200px-Download_on_the_App_Store_Badge.svg.png"/>
-            </li>
-        </ul>
-      </div>    
-      </div>
+        <div className="App">
+        <div className="block-one">
+          <h3>Enticing statement goes here</h3>
+          <p>Computers allow users to create and manipulate information. Information takes on a life of its own on a network.</p>
+            <ul className="list-one">
+              <li className="list2">
+                <img src = "http://www.checkmy.camera/images/logos/2000px-Get_it_on_Google_play.svg.png"/></li>
+              <li className="list2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/200px-Download_on_the_App_Store_Badge.svg.png"/>
+              </li>
+          </ul>
+        </div>    
+        </div>
       </div>
 
       <div className="box2">

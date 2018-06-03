@@ -222,6 +222,34 @@ body {
     background-color: #c44a3b;
     color: #ffffff;
     padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+  margin-right: 90px;
+
+}
+.email{
+  margin-right: 38px;
+}
+.subject{
+  margin-right: 80px;
+}
+.msg{
+  margin-right: 70px;
+}
+input{
+  width: 170px;
+  margin-left: 50px;
+  padding: 5px;
+}
+.msg-txt1{
+  margin-left: 50px;
+  padding: 15px;
+  width: 150px;
+}
+.sub{
+  margin-right: 85px;
 }
 
 .box8{

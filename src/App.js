@@ -135,7 +135,6 @@ class App extends Component {
     
       <Contactform></Contactform>
       
-
       <div className="box8">
         <h6>@TinyLove</h6>
       </div>

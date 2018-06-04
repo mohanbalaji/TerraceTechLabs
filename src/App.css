@@ -65,6 +65,7 @@ body {
   height: 50px;
   margin: auto;
 }
+
 .box2 {
   display: flex;
   text-align: center; 
@@ -150,6 +151,7 @@ body {
 .apple1{
   width: 300px;
 }
+
 .box5 {
   display: flex;
   text-align: center;
@@ -157,8 +159,7 @@ body {
   color: white;
   background-color:#2b2f37;
   padding: 20px 0px;
-  width:1000px;
-  
+  width:1000px; 
 }
 .img-box1{
   flex:1;
@@ -219,6 +220,7 @@ body {
 .apple3{
   width:300px
 }
+
 .cnt-form{
     text-align: center;
     margin: auto;
@@ -254,14 +256,6 @@ input{
 .sub{
   margin-right: 62px;
 }
-
-.box8{
-  text-align: center;
-  margin: auto;
-  background-color: white;
-  padding: 10px 0px;
-}
-
 .submit-btn {
   color: #000;
   background: #ffffff;
@@ -270,24 +264,12 @@ input{
   margin-top: 10px;  
 }
 
-
-/*tablet
-@media only screen and (max-width: 900px) {
-  .container {
-      background-color: #c44a3b ;
-  }
+.box8{
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  padding: 10px 0px;
 }
-
-@media only screen and (max-width: 450px) {
-  .container {
-      background-color:  #c44a3b;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .box1 {
-      background-color: #c44a3b;
-  }
-}*/
 
 
 @media only screen and (max-width: 1200px) {
@@ -317,6 +299,7 @@ input{
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .box1{
     width:100%;
@@ -335,6 +318,14 @@ input{
   }
   .works{
     flex-direction: column;
+  }
+  .itworks, .img-box2, .text {
+    flex-direction: column;
+  }
+  .itworks .inform,
+  .img-box2 .inform1,
+  .text .inform2{
+    text-align: center;
   }
   .box5{
     width:100%;
@@ -364,7 +355,6 @@ input{
     background-repeat: inherit;
     background-size: 802px;
   }
-
   .box1 .App .block-one h3 {
     display: none;
   }
@@ -373,14 +363,11 @@ input{
   }
   .box1 .App .block-one ul {
     margin-top: 260px
-  }
-
-  
+  } 
   .box2{
     width: 100%;
     padding: 10px 30px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
   }
   .box3{
     width: 100%;
@@ -394,17 +381,14 @@ input{
   .works{
     flex-direction: column;
   }
-
   .itworks, .img-box2, .text {
     flex-direction: column;
   }
-
   .itworks .inform,
   .img-box2 .inform1,
   .text .inform2{
     text-align: center;
   }
-
   .box5{
     width:100%;
     flex-direction: column-reverse;

@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import validate from 'validate.js';
-import styled from 'styled-components';
-
-//import contactFormAction from 'actions/contactFormAction';
-
-
 
 var constraints = {
 	email: {
@@ -18,7 +13,7 @@ const INITIAL_STATE = {
 }    
 
 export default class ContactForm extends Component{
-  /*  constructor(props) {
+    constructor(props) {
 		super(props);
 		this.state = {
 			fields: {
@@ -49,7 +44,7 @@ export default class ContactForm extends Component{
 				alert('Submit Sucessfully');
 			}); 
 		}
-	};*/
+	};
     
     render(){
         return(
@@ -86,3 +81,5 @@ export default class ContactForm extends Component{
         )
     }
 }
+
+

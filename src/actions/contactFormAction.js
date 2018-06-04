@@ -1,4 +1,4 @@
-//import {handleError} from 'utils/toastUtils';
+
 
 export const CONTACTFORM_SUCCESS = 'CONTACTFORM_SUCCESS';
 export const CONTACTFORM_ERROR = 'CONTACTFORM_ERROR';
@@ -20,7 +20,6 @@ export function contactFormAction (data) {
 		return Promise.resolve(response.data);
 	}).catch(function(error) {
 		deleteDomainErrorAction(error.data);
-		handleError(error);
 		return Promise.reject(error.data);
 	})
 }
